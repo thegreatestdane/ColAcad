@@ -1,3 +1,11 @@
 .blue {
     color: rgb(0, 183, 255);
 }
+
+header {
+    height: 64px;
+}
+
+.split-div {
+    display: flex;
+}
