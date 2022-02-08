@@ -9,3 +9,18 @@ header {
 .split-div {
     display: flex;
 }
+
+.banner-img {
+    width: 60%;
+    height: auto;
+}
+
+.banner-txt {
+    width: 40%;
+    height: auto;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+}
