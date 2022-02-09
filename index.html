@@ -10,7 +10,7 @@
 <body>
     <header>
         <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/ic-logo.svg">
-        <div>
+        <div class="headernav">
             <nav>
                 <li>On Campus</li>
                 <li>Online</li>
@@ -21,17 +21,17 @@
     </header>
     <main>
         <div class="split-div">
-            <div class="banner-img">
+            <div class="split-left">
                 <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/banner.jpg">
             </div>
-            <div class="banner-txt">
+            <div class="split-right">
                 <h3>Learn something new everyday</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <p>Start here</p>
             </div>
         </div>
         <div class="split-div">
-            <div>
+            <div class="split-left">
                 <div class="banner-img">
                     <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/information-main.jpg">
                 </div>
@@ -40,29 +40,41 @@
                     <p>Emanuel, Sr Strategist at Hiring.com</p>
                 </div>
             </div>
-            <div class="orientation-info">
-                <div class="date">
-                    <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/information-orientation.jpg">
-                    <h4>Orientation date</h4>
-                    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                    <p class="blue">Read More</p>
+            <div class="split-right">
+                <div class="split-stack">
+                    <div class="stack-image">
+                        <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/information-orientation.jpg">
+                    </div>
+                    <div class="stack-text">  
+                        <h4>Orientation date</h4>
+                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <p class="blue">Read More</p>
+                    </div>
                 </div>
-                <div class="campus">
-                    <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/information-campus.jpg">
-                    <h4>Our Campus</h4>
-                    <p>Find which campus is close by you</p>
-                    <p class="blue">Read More</p>
+                <div class="split-stack">
+                    <div class="stack-image">
+                        <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/information-campus.jpg">
+                    </div>
+                    <div class="stack-text">
+                        <h4>Our Campus</h4>
+                        <p>Find which campus is close by you</p>
+                        <p class="blue">Read More</p>
+                    </div>
                 </div>
-                <div class="guest">
-                    <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture.jpg">
-                    <h4>Our guest lecture</h4>
-                    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                    <p class="blue">Read More</p>
+                <div class="split-stack">
+                    <div class="stack-image">
+                        <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture.jpg">
+                    </div>
+                    <div class="stack-text">
+                        <h4>Our guest lecture</h4>
+                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                        <p class="blue">Read More</p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="start-learning">
-            <h3>Start Learning</h3>
+            <h3 class="txt-align-center">Start Learning</h3>
             <div class="courses-container">
                 <div class="course">
                     <div class="course-img">
@@ -114,42 +126,40 @@
                 </div>
             </div>   
         </div>
-        <div class="thesis-exhibit">
-            <h3>Thesis exhibit</h3>
+        <h3 class="txt-align-center">Thesis exhibit</h3>
             <div class="split-div">
-                <div class="thesis-left">
-                    <div class="banner-img">
-                        <video autoplay muted loop>
+                <div class="split-left">
+                    <div class="video-container">
+                        <video controls>
                             <source src="resources/capstone_colmar_assets/capstone_colmar_assets/videos/thesis.mp4" type="video/mp4">Video not supported by browser
                         </video>
                     </div>
-                    <div class="banner-text">
+                    <div class="video-txt">
                         <h4>Reimagine urban</h4>
                         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat. tristique ligula."</p>
                     </div>
                 </div>
-                <div class="thesis-right">
-                    <div class="right-top">
-                        <div class="rt-image">
+                <div class="split-right">
+                    <div class="split-stack">
+                        <div class="stack-image">
                              <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/thesis-fisma.jpg">
                         </div>
-                        <div class="rt-text">
+                        <div class="stack-text">
                             <h4>Fisma: Design and Prototype</h4>
                             <p>Designer showcase of new prototype product</p>
                         </div>
                     </div>
-                    <div class="right-bottom">
-                        <div class="bt-image">
+                    <div class="split-stack">
+                        <div class="stack-image">
                             <img src="resources/capstone_colmar_assets/capstone_colmar_assets/images/thesis-now-and-then.jpg">
                         </div>
-                        <div class="bt-text">
+                        <div class="stack-text">
                             <h4>Now and then</h4>
                             <p>Research study about New York</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </main>
     <footer>
         <p>2016 Colmar Academy. All rights reserved</p>

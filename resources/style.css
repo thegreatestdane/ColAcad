@@ -6,6 +6,10 @@ header {
     height: 64px;
 }
 
+.headernav {
+    display: flex;
+}
+
 .split-div {
     display: flex;
 }
@@ -23,4 +27,41 @@ header {
 .courses-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+.split-left {
+    width: 60%;
+    height: auto;
+}
+
+.split-right {
+    width: 40%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.txt-align-center {
+    text-align: center;
+}
+
+.split-stack {
+    display: flex;
+}
+
+.stack-image {
+    width: 35%;
+    height: auto;
+}
+
+.stack-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
 }
